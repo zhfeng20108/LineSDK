@@ -1,27 +1,25 @@
 {
   "name": "ZFLineSDK",
-  "version": "4.1.1",
-  "summary": "a",
-  "description": "h",
-  "homepage": "https://github.com/zhfeng20108/LineSDK",
-  "license": "MIT",
-  "authors": {
-    "zhfeng": "hhzhangfeng2008@163.com"
-  },
   "platforms": {
-    "ios": "9.0"
+    "ios": "7.0"
   },
-  "source": {
-    "git": "https://github.com/zhfeng20108/LineSDK.git",
-    "tag": "4.1.1"
-  },
+  "summary": "You can reach a vast number of LINE users by using the LINE SDK for iOS to integrate your app with LINE.",
+  "homepage": "https://developers.line.me/ios/overview",
+  "version": "4.1.1",
   "frameworks": [
     "Security",
     "CoreTelephony"
   ],
   "weak_frameworks": "SafariServices",
-  "requires_arc": true,
+  "license": "MIT",
+  "source": {
+    "http": "https://github.com/zhfeng20108/LineSDK.git"
+  },
+  "authors": {
+    "feng": "fengfeng"
+  },
   "vendored_frameworks": ["LineSDK/LineSDK.framework"],
+  "requires_arc": true,
   "source_files": "LineSDK/LineSDK.framework/Versions/A/Headers/*.h",
   "module_map": "LineSDK/LineSDK.framework/Versions/A/Modules/module.modulemap",
   "xcconfig": {
