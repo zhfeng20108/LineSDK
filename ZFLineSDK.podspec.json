@@ -11,10 +11,7 @@
     "CoreTelephony"
   ],
   "weak_frameworks": "SafariServices",
-  "license": {
-    "type": "LINE Developers Agreement",
-    "file": "LineSDK/LICENSE.txt"
-  },
+  "license": "MIT",
   "source": {
     "http": "https://github.com/zhfeng20108/LineSDK.git"
   },
